@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: org.ancit.osgi.addressbook.consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ancit.osgi.addressbook.consumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-9
+Import-Package: org.ancit.osgi.addressbook.model,
+ org.ancit.osgi.addressbook.service,
+ org.osgi.framework;version="1.3.0"
